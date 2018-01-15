@@ -1,0 +1,29 @@
+#main {
+    margin: 2em auto;
+    width: 32em;
+}
+
+#logo {
+    width: 550px;
+}
+
+label, input {
+    float: left;
+    clear: both;
+}
+
+input:not([type="radio"]) {
+    margin-bottom: 1em;
+}
+
+input[type="radio"] + label {
+    clear: right;
+}
+
+input[type="radio"] + label:last-child {
+    margin-bottom: 1em;
+}
+
+.required {
+    color: red;
+}
